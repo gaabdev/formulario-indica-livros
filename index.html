@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo/style.css" rel="stylesheet">
+    <title>FORMULÁRIO DE LEITURA</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1><strong>FORMULÁRIO DE LEITURA</strong></h1>
+        <p><strong>Por favor, responda todas as solicitações abaixo </strong></p>
+    </div>    
+        
+        <fieldset>
+            <form action="gabrielsous18@gmail.com" method="POST"> 
+                <div>
+                    <label for="nome">INFORME O SEU NOME:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div>
+                    <label for="idade">INFORME A SUA IDADE:</label>
+                    <input type="number" name="idade" id="idade" required>
+                </div>
+                 
+                <div>
+                    <label for="LEITURA">QUAL SUA FREQUÊNCIA DE LEITURA?</label>
+                    <input type="radio" value="diário">Diária
+                    
+                    <label>
+                        <input type="radio" value="semanal">Semanal
+                    </label>
+
+                    <label>
+                        <input type="radio" value="mensal">Mensal
+                    </label>
+
+                    <label>
+                        <input type="radio" value="outro">Outro
+                    </label>
+                </div>
+
+                <div>
+                    <p>QUAIS OS TRÊS ULTIMOS LIVROS QUE VOCÊ LEU?</p>
+                    <label for="numero 1">LIVRO Nº 1</label>
+                    <input type="text" name="numero 1" id="numero 1">
+                        <br>
+
+                    <label for="numero 2">LIVRO Nº 2</label>
+                    <input type="text" name="numero 2" id="numero 2">
+                        <br>
+
+                    <label for="numero 3">LIVRO Nº 3</label>
+                    <input type="text" name="numero 3" id="numero 3">
+                </div>
+                
+                <div>
+                    <label for="modo de ler">QUAL A SUA PREFERENCIA AO LER UM LIVRO?</label>
+                    <input type="radio" value="Físico"> Livro Físico
+
+                    <label>
+                        <input type="radio" value="Digital">Digital - Celular ou Tablet
+                    </label>
+
+                    <labe>
+                        <input type="radio" value="Kindlon">Kindle
+                    </labe>
+                </div>
+
+                <div>
+                    <label for="motivo">SE DESEJAR, EXPLIQUE O MOTIVO DE SUA ESCOLHA, ABAIXO:</label>
+                    <textarea row="6" style="width: 26em;" id="motivo" name="motivo"></textarea>
+                </div>
+                <div>
+                    <button for="botao">CONCLUÍDO</button>
+                </div>
+                
+            </form>
+            <footer>
+                <p>criado por Gabriel Silva</p>
+            </footer>
+        </fieldset>
+     
+       
+</body>
+</html>

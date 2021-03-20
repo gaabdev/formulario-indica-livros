@@ -1,0 +1,36 @@
+* {
+    width: 700px;
+    background-position: center;
+   
+}
+
+.titulo {
+    color:navy;
+    font-family: sans-serif, Arial;
+    font-size: 20px;
+}
+
+fieldset {
+    background-color: #e0ffff;
+    border: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: navy;
+    
+}
+
+input {
+    border: 2px solid black;
+    margin-top: 1em;
+    background-position: center;
+   
+}
+
+
+textarea {
+    border: 2px solid black;
+}
+
+button {
+    border-radius: 2px solid ;
+}
